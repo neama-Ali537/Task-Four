@@ -1,0 +1,244 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+:root {
+  --main-color: #1a1b18;
+  --font-color: #555654;
+}
+
+/* common styles */
+.container {
+  padding: 50px;
+  margin: 40px;
+  width: 1400px;
+}
+li a {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+i {
+  color: white;
+}
+.btn1 {
+  background-color: var(--main-color);
+  color: antiquewhite;
+  text-align: center;
+  width: 140px;
+  height: 45px;
+  font-size: 16px;
+  padding: 15px;
+  margin: 15px;
+  line-height: 1;
+  border-radius: 4px;
+  border: none;
+}
+
+/* common styles */
+/* start page1 */
+.page-1 {
+  height: 90vh;
+  width: 100%;
+}
+
+.right-img1 {
+  position: absolute;
+
+  left: 600px;
+  bottom: 450px;
+}
+.right-img2 {
+  position: relative;
+  right: 100px;
+  bottom: 190px;
+  z-index: 2;
+}
+.right-img2::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--main-color);
+  z-index: -1;
+}
+.img1,
+.img2 {
+  width: 300px;
+}
+
+.page-1 .content p {
+  width: 430px;
+  color: var(--font-color);
+}
+
+.page-1 .content h1 {
+  font-size: 80px;
+}
+.number div {
+  padding-top: 20px;
+  max-width: 150px;
+}
+.number h4 {
+  font-size: 32px;
+  color: #555654;
+}
+/* end page1 */
+/* start page-2 */
+.page-2 {
+  height: 40vh;
+}
+.page2-content {
+  padding: 20px;
+  margin: 30px;
+}
+.page2-content p {
+  width: 350px;
+  color: var(--font-color);
+}
+.page-2 .heading .span {
+  background-color: var(--main-color);
+  border: 1px solid;
+}
+.icon {
+  margin-top: 150x;
+  color: var(--main-color);
+  font-size: 30px;
+}
+/* end page-2 */
+/* start page-3 */
+.page-3 {
+  height: 100hv;
+}
+.page-3,
+.boxs,
+.button-pj {
+  position: relative;
+}
+.page-3-left p {
+  color: #555654;
+}
+
+.boxs .box1,
+.boxs .box2 {
+  position: absolute;
+
+  background-color: aliceblue;
+  box-shadow: 6px 4px 9px 2px;
+  text-align: left;
+  width: 350px;
+  border-radius: 5px;
+  height: 50px;
+  line-height: 2.5;
+  font-size: 16px;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.boxs .box1 {
+  left: 650px;
+  top: -230px;
+}
+.boxs .box2 {
+  left: 650px;
+  top: -170px;
+}
+.box1 i,
+.boxs i {
+  line-height: 2;
+  font-size: 18px;
+  margin-left: 100px;
+  padding: 8px;
+}
+.page-3 .page-3-left,
+.page-3 .page-3-boxes {
+  max-width: 400px;
+  position: absolute;
+  left: 600px;
+}
+.img-3 {
+  position: relative;
+}
+.page-3 .left {
+  position: absolute;
+  left: 300px;
+}
+.button-pj button {
+  position: absolute;
+  left: 650px;
+  top: -120px;
+}
+.page-3-right img {
+  height: 400px;
+  width: 400px;
+}
+/* end page-3 */
+/* start page-4 */
+.img-3 .img1 {
+  height: 530px;
+  width: 330px;
+  padding-top: 20px;
+}
+/* end page-4 */
+/* start page-5 cardes*/
+.page-5 {
+  position: relative;
+
+}
+.page-5 .right .img-5 {
+  position: relative;
+}
+
+.page-5 .right .img-5 .img5 {
+  position: absolute;
+  right: 100px;
+  width: 600px;
+  height: 420px;
+}
+.cards {
+  position: relative;
+  padding-bottom: 40px;
+}
+.card-1 {
+  position: absolute;
+  left: -500px;
+  width: 300px;
+  height: 310px;
+  top: 110px;
+  background-color: var(--main-color);
+  color: white;
+}
+.card-2 {
+  position: absolute;
+  left: -390px;
+  width: 300px;
+  height: 310px;
+  top: 110px;
+  background-color: var(--main-color);
+  color: white;
+}
+/* end page-5 cardes*/
+/* start page-6 */
+.page-6 {
+  padding: 20px;
+
+  margin: auto;
+  width: 400px;
+  height: 40hv;
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 6px 4px 9px 2px;
+}
+/* end page-6 */
+/* footer */
+footer{
+  height: 60vh;
+
+  bottom: 0;
+}
